@@ -1,0 +1,265 @@
+
+.endis
+{
+
+   width:92%;
+   height:710px; 
+   background:#122;
+   margin:20px auto;
+   border-radius:20px;
+  
+}
+body
+{
+	overflow: hidden;
+}
+.numara1
+{
+	width:60px;
+	height:60px;
+	background:#f1f1f1;
+	border-radius:200px;
+	position:absolute;
+	margin:30px 0 0 800px;
+	text-align:center;
+	
+
+}
+.numara2
+{
+	width:60px;
+	height:60px;
+    background:#f1f1f1;
+	border-radius:200px;
+	position:absolute;
+	margin:30px 0 0 600px;
+	text-align:center;
+	
+}
+.numara3
+{
+	width:60px;
+	height:60px;
+	background:#f1f1f1;
+	border-radius:200px;
+	position:absolute;
+	margin:30px 0 0 400px;
+	text-align:center;
+    
+
+}
+.numara4
+{
+	width:60px;
+	height:60px;
+    background:#000;
+	color:#FFF;
+	border-radius:200px;
+	position:absolute;
+	margin:30px 0 0 200px;
+	text-align:center;
+
+}
+.numara5
+{
+	width:60px;
+	height:60px;
+	background:#000;
+	color:#FFF;
+	border-radius:200px;
+	position:absolute;
+	margin:30px 0 0 0px;
+	text-align:center;
+	
+}
+.numaralar
+{
+	width:65%;
+	height:100px;
+	margin:40px 0 0 270px;
+	position:absolute;
+}
+.cizgi1
+{
+	width:2px;
+	 height:150px;
+    position: absolute;
+   background:#FFF;
+   margin:-13px 0 0 130px;
+  transform:rotate(90deg);
+       
+}
+.cizgi2
+{
+	width:2px;
+	 height:150px;
+    position: absolute;
+   background:#FFF;
+   margin:-13px 0 0 730px;
+  transform:rotate(90deg);
+       
+}
+.cizgi3
+{
+	width:2px;
+	 height:150px;
+    position: absolute;
+   background:#FFF;
+   margin:-13px 0 0 530px;
+  transform:rotate(90deg);
+       
+}
+.cizgi4
+{
+	width:2px;
+	 height:150px;
+    position: absolute;
+   background:#FFF;
+   margin:-13px 0 0 330px;
+  transform:rotate(90deg);
+       
+}
+.randevucercevesi
+{
+	width:70%;
+	height:500px;
+	position:absolute;
+	margin:180px 0 0 175px;
+	
+}
+
+
+
+
+
+
+
+
+
+/*  İÇ KISIM */
+.endis2
+{
+	width:1050px;
+	height:492px;
+	position:absolute;
+	border-radius:50px;
+	text-align:center;
+
+	
+	
+}
+.doktorbuyukkutu
+{
+	height:345px;
+	width:600px;
+	float:left;	
+	position:absolute;
+	margin:10px 0 0 10px;
+	
+    
+	
+}
+
+.doktorkutusu2
+{
+	background:#FFF;
+	height:30px;
+	width:600px;
+	text-align:center;
+	padding-top:20px;
+	color:#FFF;
+	margin-top:40px;
+	margin-left:220px;
+		transition:1s;
+}
+.doktorkutusu3
+{
+	background:#FFF;
+	height:30px;
+	width:600px;
+    text-align:center;
+	padding-top:20px;
+	color:#FFF;
+	margin-top:40px;
+	margin-left:220px;
+		transition:1s;
+}
+.doktorkutusu4
+{
+	background:#FFF;
+	height:30px;
+	width:600px;
+	text-align:center;
+	padding-top:20px;
+	color:#FFF;
+	margin-top:40px;
+	margin-left:220px;
+		transition:1s;
+}
+.doktorkutusu5
+{
+	background:#FFF;
+	height:30px;
+	width:600px;
+	text-align:center;
+	padding-top:20px;
+	color:#FFF;
+		margin-top:40px;
+	margin-left:220px;
+		transition:1s;
+}
+.tikla
+{
+	text-decoration:none;
+	color:#FFF;
+	height:30px;
+	width:600px;
+
+	
+}
+
+.seckutusudesign
+{
+	width:60px;
+ background:#135;
+	height:30px;
+	float:right;
+	margin:-32px 10px 0 0;
+	text-align:center;
+	padding-top:10px;
+}
+.doktorkutusu:hover
+{
+	transform: scale(1.1);
+	 background:#F60;
+}
+.doktorkutusu2:hover
+{
+	transform: scale(1.1);
+	 background:#F60;
+}
+.doktorkutusu3:hover
+{
+	transform: scale(1.1);
+	 background:#F60;
+}
+.doktorkutusu4:hover
+{
+	transform: scale(1.1);
+	 background:#F60;
+}.doktorkutusu5:hover
+{
+	transform: scale(1.1);
+	 background:#F60;
+}
+.tickduzen
+{
+	width:60px;
+	height:55px;
+	position:absolute;
+	background:#FFF;
+	margin:0px auto;
+	padding:5px 0 0 0;
+	border-radius:60px;
+
+}

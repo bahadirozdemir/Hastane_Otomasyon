@@ -1,0 +1,344 @@
+.endis
+{
+
+   width:92%;
+   height:710px; 
+   background:#122;
+   margin:20px auto;
+   border-radius:20px;
+   
+  
+}
+.numara1
+{
+	width:60px;
+	height:60px;
+	background:#000;
+  color:#FFF;
+	border-radius:200px;
+	position:absolute;
+	margin:30px 0 0 800px;
+	text-align:center;
+
+	
+
+}
+.numara2
+{
+	width:60px;
+	height:60px;
+	color:#FFF;
+  background:#000;
+	border-radius:200px;
+	position:absolute;
+	margin:30px 0 0 600px;
+	text-align:center;
+	
+	
+}
+.numara3
+{
+	width:60px;
+	height:60px;
+	background:#f1f1f1;
+	border-radius:200px;
+	position:absolute;
+	margin:30px 0 0 400px;
+	text-align:center;
+}
+.numara4
+{
+	width:60px;
+	height:60px;
+    background:#f1f1f1;
+	border-radius:200px;
+	position:absolute;
+	margin:30px 0 0 200px;
+	text-align:center;
+
+
+}
+.numara5
+{
+	width:60px;
+	height:60px;
+	background:#000;
+	color:#FFF;
+	border-radius:60px;
+	position:absolute;
+	margin:30px 0 0 0px;
+	text-align:center;
+
+	
+}
+.numaralar
+{
+	width:65%;
+	height:100px;
+	margin:40px 0 0 270px;
+	position:absolute;
+}
+.cizgi1
+{
+	width:2px;
+	 height:150px;
+    position: absolute;
+   background:#FFF;
+   margin:-13px 0 0 130px;
+  transform:rotate(90deg);
+
+       
+}
+.cizgi2
+{
+	width:2px;
+	 height:150px;
+    position: absolute;
+   background:#FFF;
+   margin:-13px 0 0 730px;
+  transform:rotate(90deg);
+
+       
+}
+.cizgi3
+{
+	width:2px;
+	 height:150px;
+    position: absolute;
+   background:#FFF;
+   margin:-13px 0 0 530px;
+  transform:rotate(90deg);
+
+       
+}
+.cizgi4
+{
+	width:2px;
+	 height:150px;
+    position: absolute;
+   background:#FFF;
+   margin:-13px 0 0 330px;
+  transform:rotate(90deg);
+
+       
+}
+.tickduzen
+{
+	width:60px;
+	height:55px;
+	position:absolute;
+	background:#FFF;
+	margin:0px auto;
+	padding:5px 0 0 0;
+	border-radius:60px;
+
+}
+.sifremiunuttumpencere	
+{
+ 
+
+  height:400px;
+  width:1000px;
+  margin:200px 0 0 200px;
+  border-radius:50px;
+     background:#125;
+  position:absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+form{
+  margin-top:25px;
+  display:inline-block;
+  margin:30px 0 0 330px;
+  
+  
+}
+
+.container span{
+    margin-bottom:22px; 
+    display:inline-block;
+	
+}
+
+.container span:last-child{
+   margin-bottom:-11px;
+   
+}
+
+input{
+  border:none;
+  outline:none;
+  display:inline-block;
+  height:34px;
+  vertical-align:middle;
+  position:relative;
+  bottom:14px;
+  right:9px;
+  border-radius:22px;
+  width:350px;
+  box-sizing:border-box;
+  padding:0 18px; 
+  font-size:15px;
+
+ 
+  
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.textt-box
+{ 
+  	display:block;
+	text-align:center;
+	margin:20px 210px 0 0;
+	
+
+}
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position:absolute;
+	width:120px;
+	
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+
+    color:#FFF;
+	background-color:#C03;
+}
+.btn-white2{
+
+    color:#FFF;
+	background-color:#3C0;
+}
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+	
+
+
+
+body
+{
+  overflow: hidden;
+}
+
+
+/*ALERT*/
+
+
+.alert {
+  padding: 20px;
+  background-color:#f44336;
+  color: white;
+  display:none;
+  width:600px;
+  height:20px;
+  margin:-466px 0 0 1400px;
+  transition:1s;
+  position:absolute;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+.guvenlikkodu
+{
+  width:250px;
+  height:40px;
+  background:#976;
+  margin: 0 0 0 360px;
+  padding:5px;
+  text-align: center;
+  font:35px bold tahoma;
+  border-radius:30px;
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html> 
+<head > 
+<meta charset="utf-8"> 
+<title>Giriş Ekranı</title> 
+<link rel="stylesheet" href="CSSDOSYALAR/still.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="javascript/index.js"></script>
+<link rel="icon" href="images/Background.png" type="image/x-icon" />
+</head>
+<body background="images/nurse-doctor-medicine.jpg" style="background-position:center; background-repeat:no-repeat; background-size:cover;">
+<div class="endis">
+<div class="girispaneli">
+<a href="Sifremi_Unuttum.php" style="margin:350px 0 0 210px; color:#333;  text-decoration-line:none; position:absolute;">Şifremi Unuttum</a>
+<div class="panellogo"><img src="images/11.png"></div>
+  <div class="giriselemanlari">
+  <form>   
+    <div class="group">    
+      <input name="tcno"id="tcno" type="text" maxLength="11" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>T.C Kimlik Numarası</label>
+    </div>
+    <div class="group">      
+      <input name="sifre" id="sifre" type="password" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label >Şifreniz</label>
+    </div>   
+  </form>
+<div  onClick="kontrol()" class="text-box" ><a href="#demo-modal" class="btn btn-white btn-animate">Giriş Yap</a></div>
+<div class="textt-box"><a href="Uyeol.html" class="btn btn-white2 btn-animate">Kayıt Ol</a></div>
+</div>
+</div>
+<div id="uyari" class="alert">
+  <span class="closebtn" onclick="kapat()">&times;</span> 
+  <strong id="Dikkat">Dikkat !</strong> <text id="yazi">T.C Kimlik No veya Şifre Hatalı.</text>
+</div>
+</div>
+</body>
+</html> 

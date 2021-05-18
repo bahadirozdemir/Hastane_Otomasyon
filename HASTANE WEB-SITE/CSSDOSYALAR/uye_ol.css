@@ -1,0 +1,206 @@
+ 
+
+
+
+
+form{
+  margin-top:25px;
+  display:inline-block;
+  margin:6px 0 0 130px;
+}
+
+.container span{
+    margin-bottom:22px; 
+    display:inline-block;
+}
+
+.container span:last-child{
+   margin-bottom:-11px;
+}
+
+input{
+  border:none;
+  outline:none;
+  display:inline-block;
+  height:34px;
+  vertical-align:middle;
+  position:relative;
+  bottom:14px;
+  right:9px;
+  border-radius:22px;
+  width:350px;
+  box-sizing:border-box;
+  padding:0 18px; 
+}
+
+
+
+
+
+
+.textt-box
+{ 
+  	display:block;
+	text-align:center;
+	margin:-22px 200px 0 0;
+	
+
+}
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position:absolute;
+	width:120px;
+	
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+
+    color:#FFF;
+	background-color:#C03;
+}
+.btn-white2{
+
+    color:#FFF;
+	background-color:#3C0;
+}
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+	
+
+
+
+
+
+
+
+
+.uyeol_endis
+{
+
+   width:92%;
+   height:710px; 
+   background:#f1f1f1;
+   margin:20px auto;
+   border-radius:20px;
+}
+body
+{
+	overflow: hidden;
+}
+
+.uyeol_giriselemanlari
+{
+    width:698px;
+	height:710px;
+	text-align:center;
+	float:left;
+	
+	
+}
+.uyeol_giris_tarafi
+{
+	width:600px;
+	height:690px;
+	margin:10px 50px auto;
+   background:	#E0E0E0;
+	float:right;
+	border-radius:50px;
+	box-shadow:1px 1px 2px #000000,-1px -1px 2px #000000;
+
+	
+}
+.uyeol_resimduzen
+{
+	margin:0 0 0 45px;
+	position:absolute;
+}
+/*
+.uyeol_giris_kutucuk
+{
+	width:80%;
+	margin:10px auto;
+	background:#000;
+	height:670px;
+	box-shadow:1px 1px 1px #666,-1px -1px 1px #666666;
+	
+	
+}
+*/
+.uyeol_sayfaortasicizgi
+{
+  border-left: 5px solid  #E0E0E0;
+  height: 709px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 21px;
+  opacity:0.6;
+}
+
+
+
+
+
+
+
+
+
+.alert {
+  padding: 20px;
+  background-color:#f44336;
+  opacity:1;
+  color: white;
+  display:none;
+  width:600px;
+  height:20px;
+  margin:-650px 0 0 720px;
+  transition:2s;
+  z-index:1;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+

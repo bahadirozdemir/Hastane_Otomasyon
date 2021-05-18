@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>Üye Ol</title>
+<link rel="stylesheet" href="CSSDOSYALAR/uye_ol.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/uye_ol.js"></script>
+<link rel="icon" href="images/Background.png" type="image/x-icon" />
+</head>
+<body background="images/uyeolarkaplan.jpg" style="background-position:center; background-repeat:no-repeat; background-size:cover;" >
+<div class="uyeol_endis" id="sonuc">
+<div class="uyeol_sayfaortasicizgi"></div>
+<div class="uyeol_giriselemanlari">
+<h1 style="margin:120px 0 0 270px; position:absolute; color:#2962FF; text-shadow: 0px 1px 1px #000">KAYIT OL</h1>
+<p style="font:20px Tahoma, Geneva, sans-serif; text-align:center; margin:200px 0 0 0; height:5px">Merkezi Hekim Sistemimize Katılarak Her zaman Ön sırada Olabilirsiniz.</p> 
+<p style="font:26px Tahoma, Geneva, sans-serif">Hemen Kayıt Olun.</p>
+<div class="uyeol_resimduzen">
+<img src="images/set-doctor-nurse-cartoon-characters_36082-457-removebg-preview.png">
+</div>
+</div> 
+<div class="uyeol_giris_tarafi">
+<div style="margin:20px 0 0 70px; z-index:-1"><img src="images/indir-removebg-preview (2).png" width="350px;"></div>
+<div style="margin:-20px 0 0 80px"><h1>ÜYE OL</h1></div>
+<div style="margin:-10px 0 0 80px; color:#000; font-size:10px"><h1>Tüm alanların doldurulması zorunludur.</h1></div>
+<div class="container">
+<form name="iletisimformu"  method="POST" id="uyeolform" >
+    <div class="form">
+      <span >
+       <input id="1" name="tcno" maxlength="11" placeholder="T.C Kimlik No"type="text" />
+    </span>
+    <br />
+     <span>
+       <input id="2" name="ad" placeholder="Adınız" type="text" />
+    </span>
+    <span>
+       <input id="3"name="soyad"  placeholder="Soyadınız" type="text" />
+    </span>
+    <br />
+    <span>
+       <input id="4"  type="date" name="dtarih"  placeholder="Doğum Tarihiniz Y/A/G" type="text" />
+    </span>
+    <br />
+    <span>
+       <input id="5" name="cinsiyet" maxlength="1" placeholder="Cinsiyetiniz E/K" type="text" />
+    </span>
+    <br />
+    <span >
+       <input id="6" name="tel" type="text" maxlength="11" placeholder="Telefon Numaranız" >
+    </span>
+    <br />
+    <span>
+       <input id="7" name="mail" placeholder="E-Mail Adresiniz" type="email" />
+    </span>
+    <br />
+    <span>
+       <input id="8" name="sifre" placeholder="Şifreniz" type="password"/>
+    </span>
+    <br />
+    </div>
+  </form>
+</div>
+<div onclick="fonksiyon()" id="kayitolbuton" class="textt-box"><a href="#" class="btn btn-white btn-animate">KAYIT OL</a></div>
+<div id="uyari" class="alert">
+  <a class="closebtn" onclick="kapat()"></a> 
+  <strong id="Dikkat">Dikkat !</strong> <text id="yazi">Böyle Bir Kayıt Zaten Mevcut.</text>
+</div>
+</body>
+</html> 
